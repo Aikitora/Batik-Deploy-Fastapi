@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # 2️⃣ Load model Keras
-model = tf.keras.models.load_model("final_tuned_genetic_algorithm_model.keras")
+model = tf.keras.models.load_model("final_tuned_model.keras")
 
 # 3️⃣ Load labels dari file
 with open("labels.txt") as f:

@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-tensorflow
+tensorflow[and-cuda]
 pydantic
 python-multipart
 Pillow

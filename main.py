@@ -25,7 +25,7 @@ with open("labels.txt") as f:
     labels = [line.strip() for line in f]
 
 # 4️⃣ Ukuran input gambar (samakan dengan training!)
-IMAGE_SIZE = (160, 160)  # contoh, sesuaikan dengan model Anda
+IMAGE_SIZE = (224, 224)  # contoh, sesuaikan dengan model Anda
 
 # 5️⃣ Endpoint root
 @app.get("/")
